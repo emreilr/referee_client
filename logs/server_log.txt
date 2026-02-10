@@ -1,0 +1,536 @@
+INFO:     Started server process [55883]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)
+2 teams loaded from teams.json.
+INFO:     ::1:61748 - "POST /api/giris HTTP/1.1" 200 OK
+/Users/mehmetemreileri/Documents/İHA_Refree/referee_server.py:136: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.12/migration/
+  print(json.dumps(data.dict(), indent=4, ensure_ascii=False))
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 41.076751,
+    "iha_boylam": 28.943237,
+    "iha_irtifa": 91.77,
+    "iha_dikilme": 7.86,
+    "iha_yonelme": 268.26,
+    "iha_yatis": 2.27,
+    "iha_hiz": 24.67,
+    "iha_batarya": 69.6,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 1,
+    "hedef_merkez_X": 316,
+    "hedef_merkez_Y": 128,
+    "hedef_genislik": 58,
+    "hedef_yukseklik": 45,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 45,
+        "saniye": 55,
+        "milisaniye": 963
+    }
+}
+INFO:     ::1:61749 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 41.055562,
+    "iha_boylam": 28.954527,
+    "iha_irtifa": 136.66,
+    "iha_dikilme": -1.51,
+    "iha_yonelme": 50.83,
+    "iha_yatis": -8.01,
+    "iha_hiz": 14.0,
+    "iha_batarya": 56.3,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 1,
+    "hedef_merkez_X": 445,
+    "hedef_merkez_Y": 157,
+    "hedef_genislik": 32,
+    "hedef_yukseklik": 91,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 45,
+        "saniye": 56,
+        "milisaniye": 973
+    }
+}
+INFO:     ::1:61750 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 40.946146,
+    "iha_boylam": 28.989329,
+    "iha_irtifa": 86.26,
+    "iha_dikilme": 5.61,
+    "iha_yonelme": 176.16,
+    "iha_yatis": -7.68,
+    "iha_hiz": 15.45,
+    "iha_batarya": 27.6,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 0,
+    "hedef_merkez_X": 432,
+    "hedef_merkez_Y": 284,
+    "hedef_genislik": 87,
+    "hedef_yukseklik": 31,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 45,
+        "saniye": 57,
+        "milisaniye": 982
+    }
+}
+INFO:     ::1:61751 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 40.915796,
+    "iha_boylam": 28.997025,
+    "iha_irtifa": 125.76,
+    "iha_dikilme": -0.12,
+    "iha_yonelme": 310.15,
+    "iha_yatis": -7.68,
+    "iha_hiz": 24.41,
+    "iha_batarya": 40.9,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 0,
+    "hedef_merkez_X": 407,
+    "hedef_merkez_Y": 236,
+    "hedef_genislik": 71,
+    "hedef_yukseklik": 89,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 45,
+        "saniye": 58,
+        "milisaniye": 992
+    }
+}
+INFO:     ::1:61754 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 41.00362,
+    "iha_boylam": 29.089474,
+    "iha_irtifa": 53.8,
+    "iha_dikilme": 4.46,
+    "iha_yonelme": 240.97,
+    "iha_yatis": -1.42,
+    "iha_hiz": 21.13,
+    "iha_batarya": 24.3,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 0,
+    "hedef_merkez_X": 362,
+    "hedef_merkez_Y": 232,
+    "hedef_genislik": 45,
+    "hedef_yukseklik": 62,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 45,
+        "saniye": 59,
+        "milisaniye": 999
+    }
+}
+INFO:     ::1:61755 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+INFO:     ::1:61756 - "POST /api/kamikaze_bilgisi HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 41.037678,
+    "iha_boylam": 29.074441,
+    "iha_irtifa": 117.36,
+    "iha_dikilme": 2.99,
+    "iha_yonelme": 98.2,
+    "iha_yatis": -2.73,
+    "iha_hiz": 16.54,
+    "iha_batarya": 28.5,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 0,
+    "hedef_merkez_X": 186,
+    "hedef_merkez_Y": 230,
+    "hedef_genislik": 25,
+    "hedef_yukseklik": 42,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 46,
+        "saniye": 1,
+        "milisaniye": 13
+    }
+}
+INFO:     ::1:61757 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+INFO:     ::1:61758 - "POST /api/kamikaze_bilgisi HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 40.99433,
+    "iha_boylam": 29.087666,
+    "iha_irtifa": 81.4,
+    "iha_dikilme": -8.46,
+    "iha_yonelme": 55.87,
+    "iha_yatis": -6.41,
+    "iha_hiz": 14.62,
+    "iha_batarya": 34.3,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 0,
+    "hedef_merkez_X": 318,
+    "hedef_merkez_Y": 177,
+    "hedef_genislik": 54,
+    "hedef_yukseklik": 51,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 46,
+        "saniye": 2,
+        "milisaniye": 31
+    }
+}
+INFO:     ::1:61759 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 40.986001,
+    "iha_boylam": 29.039413,
+    "iha_irtifa": 64.53,
+    "iha_dikilme": -4.79,
+    "iha_yonelme": 103.38,
+    "iha_yatis": 1.82,
+    "iha_hiz": 13.86,
+    "iha_batarya": 98.0,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 0,
+    "hedef_merkez_X": 421,
+    "hedef_merkez_Y": 393,
+    "hedef_genislik": 80,
+    "hedef_yukseklik": 50,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 46,
+        "saniye": 3,
+        "milisaniye": 40
+    }
+}
+INFO:     ::1:61760 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 40.923271,
+    "iha_boylam": 28.901768,
+    "iha_irtifa": 76.48,
+    "iha_dikilme": 9.29,
+    "iha_yonelme": 26.52,
+    "iha_yatis": -3.27,
+    "iha_hiz": 12.23,
+    "iha_batarya": 67.0,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 0,
+    "hedef_merkez_X": 169,
+    "hedef_merkez_Y": 335,
+    "hedef_genislik": 24,
+    "hedef_yukseklik": 21,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 46,
+        "saniye": 4,
+        "milisaniye": 49
+    }
+}
+INFO:     ::1:61761 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 40.901919,
+    "iha_boylam": 28.913816,
+    "iha_irtifa": 145.57,
+    "iha_dikilme": -8.07,
+    "iha_yonelme": 327.7,
+    "iha_yatis": -2.13,
+    "iha_hiz": 18.47,
+    "iha_batarya": 67.0,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 0,
+    "hedef_merkez_X": 264,
+    "hedef_merkez_Y": 338,
+    "hedef_genislik": 23,
+    "hedef_yukseklik": 71,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 46,
+        "saniye": 5,
+        "milisaniye": 55
+    }
+}
+INFO:     ::1:61762 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 41.055991,
+    "iha_boylam": 29.032684,
+    "iha_irtifa": 118.19,
+    "iha_dikilme": -8.84,
+    "iha_yonelme": 153.55,
+    "iha_yatis": 7.02,
+    "iha_hiz": 17.31,
+    "iha_batarya": 41.3,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 0,
+    "hedef_merkez_X": 179,
+    "hedef_merkez_Y": 139,
+    "hedef_genislik": 74,
+    "hedef_yukseklik": 94,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 46,
+        "saniye": 6,
+        "milisaniye": 64
+    }
+}
+INFO:     ::1:61763 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 40.977092,
+    "iha_boylam": 28.905127,
+    "iha_irtifa": 82.12,
+    "iha_dikilme": 5.21,
+    "iha_yonelme": 327.79,
+    "iha_yatis": 3.78,
+    "iha_hiz": 24.74,
+    "iha_batarya": 77.8,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 0,
+    "hedef_merkez_X": 206,
+    "hedef_merkez_Y": 337,
+    "hedef_genislik": 26,
+    "hedef_yukseklik": 59,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 46,
+        "saniye": 7,
+        "milisaniye": 73
+    }
+}
+INFO:     ::1:61764 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+INFO:     ::1:61765 - "POST /api/kilitlenme_bilgisi HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 40.974899,
+    "iha_boylam": 28.925064,
+    "iha_irtifa": 63.59,
+    "iha_dikilme": 4.14,
+    "iha_yonelme": 246.87,
+    "iha_yatis": 4.77,
+    "iha_hiz": 19.87,
+    "iha_batarya": 42.5,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 0,
+    "hedef_merkez_X": 447,
+    "hedef_merkez_Y": 302,
+    "hedef_genislik": 49,
+    "hedef_yukseklik": 92,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 46,
+        "saniye": 8,
+        "milisaniye": 89
+    }
+}
+INFO:     ::1:61766 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 40.959356,
+    "iha_boylam": 28.91894,
+    "iha_irtifa": 130.89,
+    "iha_dikilme": 7.97,
+    "iha_yonelme": 25.39,
+    "iha_yatis": -2.6,
+    "iha_hiz": 14.15,
+    "iha_batarya": 38.2,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 0,
+    "hedef_merkez_X": 458,
+    "hedef_merkez_Y": 180,
+    "hedef_genislik": 44,
+    "hedef_yukseklik": 21,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 46,
+        "saniye": 9,
+        "milisaniye": 102
+    }
+}
+INFO:     ::1:61767 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 40.971,
+    "iha_boylam": 28.950864,
+    "iha_irtifa": 88.23,
+    "iha_dikilme": 9.82,
+    "iha_yonelme": 87.24,
+    "iha_yatis": 3.22,
+    "iha_hiz": 19.91,
+    "iha_batarya": 24.3,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 0,
+    "hedef_merkez_X": 304,
+    "hedef_merkez_Y": 318,
+    "hedef_genislik": 79,
+    "hedef_yukseklik": 65,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 46,
+        "saniye": 10,
+        "milisaniye": 114
+    }
+}
+INFO:     ::1:61768 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+INFO:     ::1:61769 - "POST /api/kamikaze_bilgisi HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 41.025277,
+    "iha_boylam": 29.028394,
+    "iha_irtifa": 132.94,
+    "iha_dikilme": -7.45,
+    "iha_yonelme": 159.88,
+    "iha_yatis": -1.91,
+    "iha_hiz": 16.16,
+    "iha_batarya": 51.1,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 0,
+    "hedef_merkez_X": 259,
+    "hedef_merkez_Y": 318,
+    "hedef_genislik": 46,
+    "hedef_yukseklik": 90,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 46,
+        "saniye": 11,
+        "milisaniye": 127
+    }
+}
+INFO:     ::1:61770 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 40.933867,
+    "iha_boylam": 29.023166,
+    "iha_irtifa": 128.82,
+    "iha_dikilme": -4.57,
+    "iha_yonelme": 120.61,
+    "iha_yatis": 5.78,
+    "iha_hiz": 21.08,
+    "iha_batarya": 58.2,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 1,
+    "hedef_merkez_X": 185,
+    "hedef_merkez_Y": 400,
+    "hedef_genislik": 62,
+    "hedef_yukseklik": 88,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 46,
+        "saniye": 12,
+        "milisaniye": 140
+    }
+}
+INFO:     ::1:61771 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 41.023956,
+    "iha_boylam": 28.930124,
+    "iha_irtifa": 61.19,
+    "iha_dikilme": 9.68,
+    "iha_yonelme": 7.38,
+    "iha_yatis": -0.65,
+    "iha_hiz": 20.8,
+    "iha_batarya": 86.9,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 0,
+    "hedef_merkez_X": 136,
+    "hedef_merkez_Y": 278,
+    "hedef_genislik": 61,
+    "hedef_yukseklik": 100,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 46,
+        "saniye": 13,
+        "milisaniye": 149
+    }
+}
+INFO:     ::1:61772 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 41.059847,
+    "iha_boylam": 29.000213,
+    "iha_irtifa": 134.37,
+    "iha_dikilme": 0.74,
+    "iha_yonelme": 69.12,
+    "iha_yatis": 5.51,
+    "iha_hiz": 23.53,
+    "iha_batarya": 77.2,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 0,
+    "hedef_merkez_X": 433,
+    "hedef_merkez_Y": 358,
+    "hedef_genislik": 98,
+    "hedef_yukseklik": 41,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 46,
+        "saniye": 14,
+        "milisaniye": 161
+    }
+}
+INFO:     ::1:61773 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+
+[TELEMETRI ALINDI - Takım 2]:
+{
+    "takim_numarasi": 2,
+    "iha_enlem": 41.017563,
+    "iha_boylam": 29.097044,
+    "iha_irtifa": 131.69,
+    "iha_dikilme": 2.72,
+    "iha_yonelme": 166.36,
+    "iha_yatis": 5.94,
+    "iha_hiz": 23.1,
+    "iha_batarya": 84.3,
+    "iha_otonom": 1,
+    "iha_kilitlenme": 1,
+    "hedef_merkez_X": 458,
+    "hedef_merkez_Y": 330,
+    "hedef_genislik": 29,
+    "hedef_yukseklik": 94,
+    "gps_saati": {
+        "saat": 21,
+        "dakika": 46,
+        "saniye": 15,
+        "milisaniye": 173
+    }
+}
+INFO:     ::1:61774 - "POST /api/telemetri_gonder HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [55883]
